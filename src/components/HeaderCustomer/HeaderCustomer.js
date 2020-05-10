@@ -1,17 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../HeaderCustomer/HeaderCustomer.css";
 
-const HeaderCustomer = (props) => {
-  const { user, existShop } = props;
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
-
+const HeaderCustomer = () => {
   return (
     <div className="container pt-3">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           FreelHuflit
         </a>
         <button
@@ -29,7 +24,7 @@ const HeaderCustomer = (props) => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/">
                 BookShop
               </a>
             </li>

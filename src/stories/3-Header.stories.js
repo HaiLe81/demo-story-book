@@ -1,8 +1,6 @@
 import React from "react";
 import Header  from "../components/Header/Header";
 import HeaderCustomer from "../components/HeaderCustomer/HeaderCustomer"
-import { action } from "@storybook/addon-actions";
-import { Button } from "@storybook/react/demo";
 
 export default {
   title: 'Header',

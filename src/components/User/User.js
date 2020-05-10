@@ -10,7 +10,7 @@ import {
   PaginationLink,
 } from "reactstrap";
 import "../User/User.css";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 const User = (props) => {
   return (
