@@ -2,6 +2,7 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Button } from '@storybook/react/demo';
 import  App  from "../App";
+import ColorButton from "../components/ColorButton/ColorButton";
 
 export default {
   title: 'Button',
@@ -17,5 +18,7 @@ export const Emoji = () => (
     </span> 
   </Button>
 );
+
+export const colorButton = () => <ColorButton></ColorButton>
 
 export const app = () => <App/>;
